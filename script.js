@@ -21,5 +21,4 @@ for (let i = 0; i < btnsShowModal.length; i++)
     btnsShowModal[i].addEventListener('click', openModal);
 
 btnCloseModal.addEventListener('click', closeModal);
-
 overlay.addEventListener('click', closeModal);
