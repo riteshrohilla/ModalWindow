@@ -28,10 +28,3 @@ document.addEventListener('keydown', function (e) {
     }
 
 })
-
-hhbnbh
-console.log(ghjg);
-console.log(ghjg);
-console.log(ghjg);
-console.log(ghjg);
-console.log(ghjg);
