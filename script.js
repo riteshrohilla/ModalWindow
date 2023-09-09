@@ -1,3 +1,4 @@
+/*
 'use strict';
 
 const modal = document.querySelector('.modal');
@@ -28,3 +29,4 @@ document.addEventListener('keydown', function (e) {
     }
 
 });
+*/
