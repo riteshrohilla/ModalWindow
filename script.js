@@ -30,3 +30,7 @@ document.addEventListener('keydown', function (e) {
 
 });
 */
+
+'use strict'
+
+const modal = document.querySelector('.modal');
