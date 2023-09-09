@@ -39,4 +39,6 @@ const overlay = document.querySelector('.overlay');
 
 const btnCloseModal = document.querySelector('.close-modal');
 
-const btnsShowModal = document.querySelector('.open-modal');
+const btnsOpenModal = document.querySelector('.open-modal');
+
+console.log(btnsOpenModal);
