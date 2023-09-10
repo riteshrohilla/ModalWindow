@@ -23,7 +23,9 @@ overlay.addEventListener('click', closeModal);
 
 document.addEventListener('keydown', function (e) {
     console.log(e.key);
-
-    if (e.key === 'Escape')
-        console.log('Esc was pressed');
+    if (e.key === 'Escape') {
+        if (!modal.classList.contains('hidden')) {
+            closeModal();
+        }
+    }
 })
