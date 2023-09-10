@@ -42,4 +42,5 @@ for (let i = 0; i < btnsShowModal.length; i++)
     // console.log(btnsShowModal[i].textContent);
     btnsShowModal[i].addEventListener('click', function () {
         console.log('Button Clicked');
+        modal.classList.remove('hidden')
     });
